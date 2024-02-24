@@ -38,12 +38,14 @@
     flex-direction: column;
     gap: 20px;
     align-items: start;
+    color: var(--main-color);
 }
 .middle-title-style {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    color: var(--main-color);
 }
 /* || typography*/
 
@@ -340,4 +342,118 @@ header {
     gap: 27px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* || our works*/
+
+.choose-us {
+    gap: 70px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.choose-us__subcontent {
+    position: relative;
+}
+.choose-us__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    border: 1px solid #000;
+    background: rgba(28, 39, 82, 0.70);
+    backdrop-filter: blur(12.5px);
+    padding: 182px 115px;
+    transform: translate(50%, -50%);
+}
+.choose-us__cards > div {
+    display: flex;
+    align-items: center;
+}
+.choose-us__cards > div :first-child {
+    background: #FFB342;
+    color: var(--main-color);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 17px 18px;
+    width: 96px;
+}
+.choose-us__cards > div :last-child {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 700;
+    border: 1px solid #FFF;
+    padding: 16px 22px;
+    width: 260px;
+}
+.choose-us__texts .title-style h2 {
+    width: 510px;
+}
+.choose-us__texts .title-style > p {
+    color: var(--secondary-color);
+    width: 550px;
+}
+.choose-us__bullets {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 44px;
+}
+.choose-us__bullets > div {
+    display: flex;
+    align-items: start;
+    gap: 13px;
+
+}
+.choose-us__bullets > div h3 {
+    color: var(--main-color);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+}
+.choose-us__bullets > div p {
+    color: #7E7E7E;
+    margin-top: 4px;
+    width: 513px;
+}
+/* || our works*/
+
+.our-works {
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--main-color);
+    padding: 170px 0px;
+}
+.our-works .middle-title-style h2 {
+    color: #FFF;
+}
+.our-works__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.our-works__cards div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #FFF;
+    padding: 21px 22px;
+}
+.our-works__cards h3 {
+    color: var(--main-color);
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 700;
+}
+.our-works__cards p {
+    color: var(--secondary-color);
 }
